@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	start-tmux.sh
+    $TERMINAL
 
 # program launcher
 super + @space
