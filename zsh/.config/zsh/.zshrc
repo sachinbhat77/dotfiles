@@ -33,4 +33,6 @@ setopt GLOB_COMPLETE
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 
 [ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc"
+[ -f "$HOME/.config/fzf/completion.zsh" ] && source "$HOME/.config/fzf/completion.zsh"
+[ -f "$HOME/.config/fzf/key-bindings.zsh.zsh" ] && source "$HOME/.config/fzf/key-bindings.zsh.zsh"
 [ -f "/usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" ] && source "/usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
