@@ -1,0 +1,22 @@
+[Default Applications]
+application/jpeg=image.desktop;
+application/octet-stream=video.desktop;
+application/pdf=reader.desktop;
+application/png=image.desktop;
+application/postscript=reader.desktop;
+application/rss+xml=rss.desktop;
+application/x-bittorrent=torrent.desktop;
+audio/x-m4a=music.desktop;
+image/gif=video.desktop;
+image/jpeg=image.desktop;
+image/png=image.desktop;
+image/webp=image.desktop;
+text/html=browser.desktop;
+text/plain=text.desktop;
+text/x-shellscript=text.desktop;
+video/mp3=video.desktop;
+Microsoft Excel/xlsx=spreadsheet.desktop;
+video/mp4=video.desktop;
+video/mpeg=video.desktop;
+video/webm=video.desktop;
+x-scheme-handler/magnet=torrent.desktop;

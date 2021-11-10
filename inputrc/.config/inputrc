@@ -1,0 +1,13 @@
+$include /etc/inputrc
+
+set colored-completion-prefix on
+set colored-stats on
+set completion-ignore-case on
+set menu-complete-display-prefix on
+set show-all-if-ambiguous on
+set show-all-if-unmodified on
+
+"\e[Z": menu-complete-backward
+"\t": menu-complete
+
+Control-l: clear-screen

@@ -1,0 +1,14 @@
+#!/bin/sh
+
+case "$1" in
+	*.7z) 7z l "$1";;
+	*.html) w3m -dump "$1";;
+	*.md) glow "$1";;
+	*.pdf) pdftotext "$1" -;;
+	*.rar) lsar -l "$1";;
+	*.tar) tar -tvf "$1";;
+	*.tar.bz2) tar -jtvf "$1";;
+	*.tar.gz) tar -ztvf "$1";;
+	*.zip) zipinfo -1 "$1";;
+	*) highlight -O ansi "$1" || cat "$1";;
+esac
