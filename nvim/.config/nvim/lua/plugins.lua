@@ -100,6 +100,8 @@ return require('packer').startup(function()
 
 	use "projekt0n/github-nvim-theme"
 
+	use "Pocco81/TrueZen.nvim"
+
 	use {
 		'nvim-lualine/lualine.nvim',
 		requires = {'kyazdani42/nvim-web-devicons', opt = true}
