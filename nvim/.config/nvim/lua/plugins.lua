@@ -79,6 +79,15 @@ return require('packer').startup(function()
 	use "blackCauldron7/surround.nvim"
 
 	use {
+		'lewis6991/gitsigns.nvim',
+		requires = {
+			'nvim-lua/plenary.nvim'
+		}
+	}
+
+	use { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' }
+
+	use {
 		"folke/which-key.nvim",
 		config = function()
 			require("which-key").setup {

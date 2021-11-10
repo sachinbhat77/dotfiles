@@ -29,6 +29,13 @@ require"surround".setup {mappings_style = "sandwich"}
 --- whichkey
 require("which-key").setup()
 
+-- neogit
+require("plenary")
+require('neogit').setup{}
+
+-- gitsigns
+require('gitsigns').setup()
+
 --- go
 require('go').setup()
 

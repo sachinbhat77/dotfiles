@@ -20,6 +20,7 @@
 **/.config/transmission-daemon/resume
 **/.config/transmission-daemon/torrents
 **/.config/transmission-daemon/dht.dat
+**/.config/transmission-daemon/stats.json
 **/.config/zsh/.zcompdump
 **/.config/w3m/history
 **/.config/wallpaper.jpg
