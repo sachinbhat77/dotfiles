@@ -1,5 +1,6 @@
 alias ll='ls -alh --group-directories-first --color=auto'
 alias e='$EDITOR'
+alias ytfzf='ytfzf -t'
 
 alias xi='sudo xbps-install'
 alias xr='sudo xbps-remove'

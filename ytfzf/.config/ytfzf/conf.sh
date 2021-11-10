@@ -60,7 +60,7 @@ video_pref=""
 
 #when -D is given it will use this external menu instead of fzf
 #(YTFZF_EXTMENU)
-external_menu="dmenu -i -l 30 -p YT: -fn 'Iosevka Custom:pixelsize=14"
+external_menu="dmenu -i -l 30 -p YT: -fn 'Iosevka Custom:pixelsize=15'"
 
 #the method to use for displaying thumbnails
 #valid options:
