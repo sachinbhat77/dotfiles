@@ -1,6 +1,7 @@
 # Dotfiles
 
 My Personal Dotfiles on Void Linux
+Managed with GNU Stow
 
 ## Programs Used
 
