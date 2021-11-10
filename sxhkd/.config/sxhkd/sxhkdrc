@@ -155,10 +155,10 @@ XF86AudioMute
 	pulsemixer --toggle-mute
 
 XF86AudioLowerVolume
-	pulsemixer --change-volume -2
+	dunst-volume.sh -1
 
 XF86AudioRaiseVolume
-	pulsemixer --change-volume +2
+	dunst-volume.sh +1
 
 XF86AudioPrev
 	mpc prev

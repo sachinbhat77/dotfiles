@@ -366,7 +366,7 @@ mpd_music_dir = ~/music
 ## Note: You can specify third character which will be used to build 'empty'
 ## part of progressbar.
 ##
-#progressbar_look = =>
+progressbar_look = ->
 #
 ## Available values: database, playlist.
 ##
