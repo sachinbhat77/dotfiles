@@ -1,8 +1,8 @@
 require('opts')
 
-vim.api.nvim_set_keymap('n', '<leader>tf', ':Telescope find_files<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<leader>tb', ':Telescope buffers<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<leader>tg', ':Telescope grep_string<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>f', ':Telescope find_files<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>b', ':Telescope buffers<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>g', ':Telescope grep_string<CR>', { noremap = true, silent = true })
 
 -- vim.api.nvim_command('inoremap <C-space> <C-x><C-o>')
 
