@@ -9,6 +9,7 @@ require('themes')
 require('treesitters')
 require('lspconfigs')
 require('toggleterms')
+require('trees')
 
 --- hop
 require'hop'.setup()

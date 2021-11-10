@@ -22,7 +22,8 @@
 **/.config/transmission-daemon/dht.dat
 **/.config/transmission-daemon/stats.json
 **/.config/zsh/.zcompdump
-**/.config/w3m/history
+**/.w3m/history
+**/.w3m/cookie
 **/.config/tg
 **/.config/wallpaper.jpg
 *.ssh/

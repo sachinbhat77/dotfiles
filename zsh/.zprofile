@@ -17,9 +17,9 @@ export READER=zathura
 export TERM=xterm-256color
 export TERMINAL=alacritty
 export VISUAL=nvim
-export FZF_DEFAULT_COMMAND="fd . $HOME"
+export FZF_DEFAULT_COMMAND="fd --hidden . $HOME"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-export FZF_ALT_C_COMMAND="fd -t d . $HOME"
+export FZF_ALT_C_COMMAND="fd --hidden -t d . $HOME"
 
 export CM_DIR="$XDG_CACHE_HOME/clipmenu"
 export INPUTRC="$XDG_CONFIG_HOME/inputrc"

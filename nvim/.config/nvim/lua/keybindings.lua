@@ -11,7 +11,7 @@ vim.api.nvim_set_keymap('n', 'f', ":HopChar1<CR>", {})
 vim.api.nvim_set_keymap('n', '<leader>r', ":!compiler.sh %<CR>", {})
 
 vim.api.nvim_set_keymap('n', '<leader>T', ":vsplit | terminal<CR>", {})
-vim.api.nvim_set_keymap('n', '<leader>n', ":Lexplore!<CR>", {})
+vim.api.nvim_set_keymap('n', '<leader>n', ":NvimTreeToggle<CR>", {})
 
 vim.api.nvim_set_keymap('n', '<leader>R', ':IronRepl<CR>', {silent = true})
 vim.api.nvim_set_keymap('n', '<localleader><CR>', '<Plug>(iron-cr)', {silent = true})
